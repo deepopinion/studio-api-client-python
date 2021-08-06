@@ -18,7 +18,7 @@ Python 2.7 and 3.4+
 If the python package is hosted on Github, you can install the latest stable release directly from Github via
 
 ```sh
-pip install git+https://github.com/deepopinion/studio-api-client.git@v1.6.2
+pip install git+https://github.com/deepopinion/studio-api-client-python.git@v1.6.2
 ```
 (you may need to run `pip` with root permission: `sudo pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git`)
 
