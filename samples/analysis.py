@@ -117,7 +117,7 @@ if __name__ == '__main__':
             response_analysis_json, timedelta_analysis = get_analysis_documents(workspace_id, analysis_id, api_token,
                                                                                 offset=offset, limit=limit)
             print(f'\toffset {offset}, Time elapsed for analysis {analysis_id}'
-                  f' #docs {len(response_analysis_json["documents"])}: {timedelta} sec')
+                  f' #docs {len(response_analysis_json["documents"])}: {timedelta_analysis} sec')
             table_docs_of_analysis.extend(flatten_documents(response_analysis_json["documents"]))
 
         # Do stuff with table ...
